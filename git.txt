@@ -30,5 +30,8 @@
  -- To delete the branch git branch -d 'branch-name', this command will only delete the branch from local system.
  -- To delete the branch from remote repository git push origin --delete 'branch-name'.
 
+--> Setting up automatic email sending using Git Hub.
+ -- Whenever developer push changes to remote repositiory an automatic email will be send to the specified address.
+
 
 
