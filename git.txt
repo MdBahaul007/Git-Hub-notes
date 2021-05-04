@@ -33,5 +33,16 @@
 --> Setting up automatic email sending using Git Hub.
  -- Whenever developer push changes to remote repositiory an automatic email will be send to the specified address.
 
-
-
+--> Tags in Git.
+ -- Tagging refers to creating specific  points in hitory for the repository.
+ -- To create the tag one must checkout the branch in which one want to create the tag.
+ -- Create tag using some name using command git tag tag-name.
+ -- To create annoted tag where one can also leave message with tag it is done using git tag -a tag-name -m 'message'.
+ -- To see all the tag use command git tag 
+ -- To see specific command use command git tag tag-name.
+ -- To push tag to remote use commnad git push origin tagname
+ -- To push all the tags use command git push origin --tags.
+ -- To delete the tag use command git tag --delete tag-name.
+ -- To delete tag from remote use command git push origin -d tag-name.
+ -- To tag a particular commit use command git tag tag-name commit-id.
+ 
