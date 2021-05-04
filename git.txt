@@ -1,0 +1,25 @@
+--> Intoduction to Git and Git Hub.
+
+ -- Git is open source version control system.
+ -- Version control system is one which helps in tracking all the changes made in the file.
+ -- Types of version control system. i)Centralized version control system. ii) Distributed version control system.
+ -- Git is distributed version control system.
+ -- Git Hub is the website where one upload all the repositories.
+ -- Advantages of using the Git Hub like it provide the backups for repositories, Git Hub provide visiual interface to our repository.  
+ -- Flow or working of the Git.
+
+--> Installation of Git and Git Commands.
+ -- Adding the project.
+ -- Using git init command to intilize the repository and using this command folder will created which will do all tracking.
+ -- git status commad to check the current status of files.
+ -- git add command to add file.
+ -- To commit chages we use git commit -m "message".
+ -- If one want to add file use command git add . 
+ -- Adding file to remote repository.
+ -- Initially creating the account on the Git Hub.
+ -- Then creating the repository on the Git Hub.
+ -- then adding the file using git remote add origin location/link of repo.
+ -- Finally pushing to Git Hub using git push -u -origin master.
+ -- git logs command to see all the logs.
+
+
