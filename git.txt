@@ -22,4 +22,13 @@
  -- Finally pushing to Git Hub using git push -u -origin master.
  -- git logs command to see all the logs.
 
+--> Merging and branching the files.
+ -- It is not recommended to do changes in the main bracnch or master branc, it is recommended that create seprate branch and push the final changes on the master branch.
+ -- To create the new branch git branch 'branch-name'.
+ -- To go inside the created branch git checkout 'branch-name'. Branch will only appear on Git Hub after push.
+ -- To merge the created branch with master branch git merge 'branch-name', merge will only appear on Git Hub after we push changes.
+ -- To delete the branch git branch -d 'branch-name', this command will only delete the branch from local system.
+ -- To delete the branch from remote repository git push origin --delete 'branch-name'.
+
+
 
